@@ -22,6 +22,7 @@
 		753AC39F195AEE0C00F0DD81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 753AC37E195AEE0A00F0DD81 /* UIKit.framework */; };
 		753AC3A7195AEE0C00F0DD81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 753AC3A5195AEE0C00F0DD81 /* InfoPlist.strings */; };
 		753AC3A9195AEE0C00F0DD81 /* sampleHmacTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 753AC3A8195AEE0C00F0DD81 /* sampleHmacTests.m */; };
+		753AC3B7195AEE7D00F0DD81 /* NSString+HMAC.m in Sources */ = {isa = PBXBuildFile; fileRef = 753AC3B6195AEE7D00F0DD81 /* NSString+HMAC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		753AC3A4195AEE0C00F0DD81 /* sampleHmacTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "sampleHmacTests-Info.plist"; sourceTree = "<group>"; };
 		753AC3A6195AEE0C00F0DD81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		753AC3A8195AEE0C00F0DD81 /* sampleHmacTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sampleHmacTests.m; sourceTree = "<group>"; };
+		753AC3B5195AEE7D00F0DD81 /* NSString+HMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HMAC.h"; sourceTree = "<group>"; };
+		753AC3B6195AEE7D00F0DD81 /* NSString+HMAC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HMAC.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				753AC38F195AEE0A00F0DD81 /* Main_iPad.storyboard */,
 				753AC392195AEE0B00F0DD81 /* ViewController.h */,
 				753AC393195AEE0B00F0DD81 /* ViewController.m */,
+				753AC3B5195AEE7D00F0DD81 /* NSString+HMAC.h */,
+				753AC3B6195AEE7D00F0DD81 /* NSString+HMAC.m */,
 				753AC395195AEE0B00F0DD81 /* Images.xcassets */,
 				753AC381195AEE0A00F0DD81 /* Supporting Files */,
 			);
@@ -255,6 +260,7 @@
 			files = (
 				753AC394195AEE0B00F0DD81 /* ViewController.m in Sources */,
 				753AC38B195AEE0A00F0DD81 /* AppDelegate.m in Sources */,
+				753AC3B7195AEE7D00F0DD81 /* NSString+HMAC.m in Sources */,
 				753AC387195AEE0A00F0DD81 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
